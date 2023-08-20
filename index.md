@@ -1,15 +1,15 @@
 ---
 layout: cv
 title: Wode "Nimo" Ni
-email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+# email:
+#   url: mailto:woden@cs.cmu.edu
+#   text: woden@cs.cmu.edu
+# homepage:
+#   url: http://cs.cmu.edu/~woden
+#   text: cs.cmu.edu/~woden
 ---
 
-# Wode **Ni**
+# 吳克洋
 
 <!--
 include contact information from the front matter
@@ -21,44 +21,30 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 學歷
 
-### **Carnegie Mellon University** `2018.9 -`
+### **國立臺北科技大學** `2020.9 - 2024.6`
 
-```
-Pittsburgh, PA
-```
+- 資訊工程系學士
+- 歷年成績  
+  - GPA：3.83/4.0
+  - 曾獲一學期書卷獎（3.3％）
+  - 總排名系排第 8 名（13％）
+- 指導教授：[楊士萱]()教授
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+## 專案經歷
 
-### **Columbia University** `2016.9 - 2018.5`
+### **足球自由球自主訓練輔助系統** `2022.7 -`
 
-```
-New York, NY
-```
+此系統使用**影像辨識**來偵測足球及球門，結合國家級足球教練的建議，完成一個具有**後端、手機及手錶 App** 的完整軟體系統。
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+由**楊士萱**教授指導，由吳克洋、李致中兩位學生共同開發完成。
 
-### **Dickinson College** `2013.9 - 2016.5`
+**[後端系統](https://github.com/ggjj321/12-yard-free-throw-server)**
+使用 **Docker Compose** 整合 **WebRTC** 、**YOLOv5**、**FastAPI**、**Socket**、**Redis**、**Firebase** 等多項服務，並導入微服務架構進行系統整合。
 
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
-
-## Publications
-
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
+**[手機 App](https://github.com/ggjj321/12-yard-free-throw-app)**
+使用 **Flutter** 進行跨平台開發，搭配後端系統完成一個**跨平台的即時物件辨識手機 App**。
 
 
 ### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
